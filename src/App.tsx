@@ -1,5 +1,11 @@
+import { Register } from "./pages";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <Register />
+    </div>
+  );
 };
 
 export default App;
