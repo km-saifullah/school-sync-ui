@@ -4,15 +4,15 @@ import registerImg from "/register_img.png";
 const Register = () => {
   return (
     <main>
-      <section className="flex items-center justify-between w-full h-[100vh]">
-        <section className="bg-secondary w-full h-full flex items-center justify-center flex-col px-20">
-          <h2 className="text-textPrimary text-[45px] font-lato font-medium leading-[140%] mb-4">
+      <section className="flex items-center justify-between flex-col xl:flex-row w-full h-[100vh]">
+        <section className="bg-secondary w-full h-full flex items-center justify-center flex-col px-0 py-2 md:px-20">
+          <h2 className="text-textPrimary text-xl md:text-3xl lg:text-[45px] font-lato font-medium leading-[140%] mb-4 text-center ">
             Register Yourself
           </h2>
           <Image imgSrc={registerImg} altText="register image" />
         </section>
-        <section className="bg-primaryBg w-full h-full flex items-center justify-center flex-col px-20">
-          <div className="w-[520px]">
+        <section className="bg-primaryBg w-full h-full flex items-center justify-center flex-col px-3 py-5 lg:py-2 md:px-20">
+          <div className="w-full lg:w-[520px] mx-2">
             <form action="">
               <div className="w-full">
                 <input
