@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Image from "../../utils/Image";
 import registerImg from "/register_img.png";
 
@@ -56,9 +57,12 @@ const Register = () => {
               </div>
               <h4 className="text-center text-textPrimary text-base font-ibmPlex font-normal leading-[135%] rounded-md placeholder:text-textPrimary">
                 Already have an account?{" "}
-                <span className="text-secondary cursor-pointer hover:underline">
+                <Link
+                  to={"/login"}
+                  className="text-secondary cursor-pointer hover:underline"
+                >
                   Login
-                </span>
+                </Link>
               </h4>
             </form>
           </div>
