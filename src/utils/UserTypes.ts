@@ -5,3 +5,8 @@ export interface RegisterState {
   password: string;
   role: string;
 }
+
+export interface LoginState {
+  email: string;
+  password: string;
+}
