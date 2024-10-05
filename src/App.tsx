@@ -4,7 +4,7 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import { Register, Login } from "./pages";
+import { Register, Login, AddStudent } from "./pages";
 
 // router setup
 const router = createBrowserRouter(
@@ -12,6 +12,7 @@ const router = createBrowserRouter(
     <Route>
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/add-student" element={<AddStudent />} />
     </Route>
   )
 );
